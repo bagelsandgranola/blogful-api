@@ -1,8 +1,14 @@
+#Run seed script that puts dummy data of test articles into blogful database
+
+psql -U dunder-mifflin -d blogful -f ./seeds/seed.blogful_articles.sql
+
+
+
 # Express Boilerplate
 
 This is a boilerplate project used for starting new projects!
 
-## Set up 
+## Set up
 
 Complete the following steps to start new project (NEW-PROJECT-NAME)
 
